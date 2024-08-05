@@ -7,7 +7,7 @@ import {DataSource} from 'typeorm';
 import * as dotenv from 'dotenv';
 import * as process from "node:process";
 
-dotenv.config({ path: '.env.test.local' });
+dotenv.config({path: '.env.test.local'});
 
 describe('Database Options', () => {
     let app: INestApplication;
